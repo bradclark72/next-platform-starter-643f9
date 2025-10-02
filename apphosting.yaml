@@ -1,0 +1,73 @@
+runConfig:
+  minInstances: 2
+  maxInstances: 100
+  concurrency: 100
+  cpu: 2
+  memoryMiB: 1024
+
+env:
+  - variable: FIREBASE_ADMIN_PROJECT_ID
+    value: "studio-7952230521-2d3c1"
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: FIREBASE_ADMIN_CLIENT_EMAIL
+    value: "firebase-adminsdk-fbsvc@studio-7952230521-2d3c1.iam.gserviceaccount.com"
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: FIREBASE_ADMIN_PRIVATE_KEY
+    value: "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDBPaUcGLO7jCoK\nM0YoG9TS/JwqKmi76TQx3VtHjat3dUZHZGAASSMrYXl5Rj/CozeeIOEH1rkfyz4n\nDWo1q43KLdHzFbuHDpowxrLyf6WXhEeoPxbc2m2PVuK0a79EJlEgJ4szMJFlzI/X\nK8lvdngAU6lTR0RBqbVcdrmqjm8TLyF7NDhy7LTpndPcTmvv3m0Nu3WR5CqbyElv\n2btGRjisbCiZyuL1UHP2B0XB48kT4vtScQkdPve84oUUbLqtq3gG4ajPG0k/1Z9y\n+Ak425qDQ3gfqJQpooJ9IA7tBonEjCv8RKWqyNOazBVdyypCHlygZM2Ok9wSyWSt\nKXH+s18NAgMBAAECggEADssCTcFSWQQk370HHODsjO5Loiq289OpbDvO1g5xVubC\nZ4q2kq8GozaGDxOio+rMwi0wLOJyL43mhyTOwacNZrHVRa+fOHqUsTE0172P1qaI\nuceCn4uVIYj8N+WbscLhKP39+QA50To0tLskY4UFMLk22Co3fnNYb+ii0/ytYiFy\nZ0eVpCO6lD8Sta7KtjKscSYV61Fc64VibLXtFCc+SfWTzistDdCKTDOX6xUfojkP\nqmDZrUnvYdJRkM1HSh1TKR19fHCB4WgTuO0X5bSjvqdV9POudeFLYmSrOCnx/LPP\n4dE191XMrB4O/1TDdjOpTvJ/EOWKgoa/G8rcvydkHQKBgQDsnZAT8IHxbfC0ZyF0\nxLLEGD5kILxpuELwJED5N9hpNQ/8e2gwTOJrMA8S2He6qOHwOSV9bt3HgV2M6Ld4\nIW86Fcp7Nb2GoclKE3+Ib/vgmp3ZpeuvcIHcW3dNG9uud8uS73pEPcJknAsz6hsm\n23Ei+NkDZDEKmkzfYK8Wq7FfFwKBgQDREmc4k7I3DzYurRM6Xv5q+IXxepSu1M9J\n+4SqEeHfh33Cgbwv4KF2mHWdrQErlmRlzTAxTl4Xs399ZRHeT8ngpJGPXpWEEDJX\ndwDa21Fw+hgKVLYI7F7jRvT1nhTbRErMgOwRsdIhiodeMRwzNvXpdfVP1cDJ0DAa\nA3Xj0cApewKBgQDTtftnS+gIrHUWBbzyrNjDCmowzvWmpl8GXXnhQ62YHQlLwOOt\na+2fOKYUF6mxU1Ctz4QS4nMAAmlBHiyjCU9rKno8mg4Ve4cOh7mxy3kUM2QPjRz/\noewfzZtGXCnIxplYxHuiuZvIx7JiZhKbRvfI8d3C4g/bS8qCiBDBeShASwKBgQCm\nTuFVHAfTzIHpNzvoXtA6/15s7HmBaT9LNowdTQRD71+WbeTooONPl49X0drwdT1/\nzWzci95FND/h25gPI6EO1VoEldSRrOCeuscvUO7D0+1zqlbzWjNQz4zkJM+qa/Sk\nIJmoqa7hh3SO9Lnd84ZCI9bznrEw2C6rQr1wb9VQKQKBgHfR1qVJ5mkmZaJ01T/G\nUwsbF1Ww7TqKTINWWoiWVSm52H06R9kqltPk+3omIZz5cIIaEcC5Csp63q2vw25z\nm5W/l5xW1VlQvEcpDg/8CLONjHbfZgy5ublYxqm+tQSk2+JG5CNEhz8jnITx6NVF\nBMYsvyRNnukgCUC3XNrTpV+b\n-----END PRIVATE KEY-----\n"
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: STRIPE_SECRET_KEY
+    value: "rk_test_51R7icJAI84vWzsPf3pWfQx4Tj4c8s9k9V0j7e6f5d4c3b2a1"
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: STRIPE_WEBHOOK_SECRET
+    value: "whsec_jGQtM8k9DBdSxPk40vwqAbvjuLirqXw8"
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value: "AIzaSyCkZNbQ_aTmaFsJgDKzOG2oU3AwMPsl1So"
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value: "studio-7952230521-2d3c1.firebaseapp.com"
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: "studio-7952230521-2d3c1"
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: "studio-7952230521-2d3c1.firebasestorage.app"
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: "145981000107"
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value: "1:145981000107:web:b43c8425f42b54aa14aaee"
+    availability:
+      - BUILD
+      - RUNTIME
